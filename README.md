@@ -5,6 +5,10 @@ and we keep procastinating about to make report for this and we always fail
 
 Here is i have made a simple python script which will gneerate a report of your hardwork
 
+## 🎥 Demo
+
+Check out a sample generated report: [View Sample Report](report.pdf)
+
 ## 📋 What You'll Get
 
 - **report.pdf**: A professionally formatted PDF with:
