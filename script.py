@@ -2,8 +2,11 @@
 import os
 from datetime import datetime
 from git import Repo
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
+from reportlab.lib.units import inch
 
 # Hardcoded start and end dates
 START_DATE_STR = "2024-01-01"
@@ -56,25 +59,126 @@ def process_repo(repo_url, start_dt, end_dt, target_author):
 
 def generate_pdf(report_text, filename="report.pdf"):
     """
-    Generate a PDF file from the given report text.
+    Generate a beautifully formatted PDF file from the given report text.
     """
-    c = canvas.Canvas(filename, pagesize=letter)
-    width, height = letter
-    margin = 40
-    x = margin
-    y = height - margin
-    line_height = 12
-    c.setFont("Helvetica", 10)
+    doc = SimpleDocTemplate(
+        filename,
+        pagesize=letter,
+        rightMargin=72,
+        leftMargin=72,
+        topMargin=72,
+        bottomMargin=72
+    )
 
-    for line in report_text.splitlines():
-        # Start a new page if the text reaches the bottom margin.
-        if y < margin:
-            c.showPage()
-            c.setFont("Helvetica", 10)
-            y = height - margin
-        c.drawString(x, y, line)
-        y -= line_height
-    c.save()
+    # Container for the 'Flowable' objects
+    elements = []
+    
+    # Define styles
+    styles = getSampleStyleSheet()
+    styles.add(ParagraphStyle(
+        name='CustomTitle',
+        parent=styles['Heading1'],
+        fontSize=24,
+        spaceAfter=30,
+        textColor=colors.HexColor('#2E5A88')
+    ))
+    styles.add(ParagraphStyle(
+        name='CustomHeading',
+        parent=styles['Heading2'],
+        fontSize=16,
+        spaceAfter=12,
+        textColor=colors.HexColor('#2E5A88')
+    ))
+    styles.add(ParagraphStyle(
+        name='CustomBody',
+        parent=styles['Normal'],
+        fontSize=10,
+        spaceAfter=6
+    ))
+
+    # Process the report text
+    sections = report_text.split('\n\n')
+    
+    # Header section
+    header_lines = sections[0].split('\n')
+    title_data = []
+    for line in header_lines:
+        if '=' not in line:
+            key, value = line.split(':', 1)
+            title_data.append([Paragraph(key.strip(), styles['CustomBody']), 
+                             Paragraph(value.strip(), styles['CustomBody'])])
+    
+    # Create header table
+    header_table = Table(title_data, colWidths=[3*inch, 3*inch])
+    header_table.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#F5F5F5')),
+        ('TEXTCOLOR', (0, 0), (-1, -1), colors.HexColor('#333333')),
+        ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+        ('FONTNAME', (0, 0), (-1, -1), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, -1), 10),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 12),
+        ('TOPPADDING', (0, 0), (-1, -1), 12),
+        ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#CCCCCC'))
+    ]))
+    elements.append(header_table)
+    elements.append(Spacer(1, 20))
+
+    # Process each repository section
+    for section in sections[2:]:  # Skip header and overall report
+        if section.strip():
+            lines = section.split('\n')
+            if lines[0].startswith('====='):
+                # Repository header
+                repo_name = lines[0].replace('=', '').replace('Repository:', '').strip()
+                elements.append(Paragraph(repo_name, styles['CustomHeading']))
+                elements.append(Spacer(1, 10))
+                
+                # Commit count
+                if len(lines) > 1:
+                    elements.append(Paragraph(lines[1], styles['CustomBody']))
+                    elements.append(Spacer(1, 10))
+                
+                # Commits table data
+                if len(lines) > 3:
+                    commit_data = []
+                    commit_data.append(['#', 'Message', 'Date', 'Hash'])  # Header row
+                    
+                    for line in lines[3:]:
+                        if line.strip() and line[0].isdigit():
+                            try:
+                                num, rest = line.split('.', 1)
+                                message, rest = rest.rsplit('::[', 1)
+                                date, hash_val = rest.rsplit(']::', 1)
+                                commit_data.append([
+                                    num.strip(),
+                                    message.strip(),
+                                    date.strip(),
+                                    hash_val.strip()
+                                ])
+                            except ValueError:
+                                continue
+                    
+                    if len(commit_data) > 1:  # If we have commits
+                        table = Table(commit_data, colWidths=[0.4*inch, 3.5*inch, 1.5*inch, 1*inch])
+                        table.setStyle(TableStyle([
+                            ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#2E5A88')),
+                            ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+                            ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+                            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+                            ('FONTSIZE', (0, 0), (-1, 0), 10),
+                            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+                            ('BACKGROUND', (0, 1), (-1, -1), colors.white),
+                            ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
+                            ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+                            ('FONTSIZE', (0, 1), (-1, -1), 8),
+                            ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#CCCCCC')),
+                            ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#F5F5F5')])
+                        ]))
+                        elements.append(table)
+                        elements.append(Spacer(1, 20))
+
+    # Build the PDF
+    doc.build(elements)
     print(f"PDF report generated and saved as {filename}")
 
 def main():
