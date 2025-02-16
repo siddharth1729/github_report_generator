@@ -9,6 +9,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 
 # Hardcoded start and end dates
+# ADD YOUR DATE
 START_DATE_STR = "2024-01-01"
 END_DATE_STR = "2025-02-15"
 start_dt = datetime.strptime(START_DATE_STR, "%Y-%m-%d")
@@ -182,8 +183,11 @@ def generate_pdf(report_text, filename="report.pdf"):
     print(f"PDF report generated and saved as {filename}")
 
 def main():
+    # ADD YOUR NAME 
     developer_name = "Siddharth Sabron"
+    #  ADD YOUR GITHUB ID/USERNAME
     target_author = "siddharth1729"
+    # ADD ALL YOUR GITHUB REPO WITH "," SEPERATED LIKE THIS GIVEN BELOW
     repos = [
         "git@github.com:siddharth1729/my_website.git",
         "git@github.com:siddharth1729/cash_table.git",
