@@ -1,0 +1,214 @@
+==================================================
+Developer Name           : Siddharth Sabron
+Report Generated On      : 2025-02-17 01:33:31
+Date Range               : 2024-01-01 to 2025-02-15
+Total Repositories Worked: 4
+Total Commits            : 188
+==================================================
+
+===== OVERALL REPORT =====
+Total Commits: 188
+
+===== Repository: my_website =====
+Total Commits: 124
+Commits:
+1.  FIX: Fixing the rss feed og the site ::[2025-02-10 01:18:27]:: 53871eb
+2.  DEV: Making page scroll smothly ::[2025-02-10 00:39:28]:: 34a537d
+3.  DEV: Some minor chnges ::[2025-02-10 00:31:36]:: 1654b93
+4.  DEV: Making search grat again ::[2025-02-08 16:26:06]:: 2b89324
+5.  DEV: Making search great again ::[2025-02-08 16:22:12]:: b0e534f
+6.  DEV: Fixing the search ::[2025-02-08 16:16:40]:: f7915eb
+7.  DEV: Making box glowy of nav bar ::[2025-02-08 14:57:06]:: e405271
+8.  DEV: Adding more style tot he blog page ::[2025-02-08 14:51:33]:: e3cc700
+9.  DEV: Making font color with warm ::[2025-02-08 14:32:29]:: 7e36cea
+10.  DEV: Ching font size ::[2025-02-08 14:18:01]:: 8d82e7e
+11.  DEV: Adding new font and size ::[2025-02-08 14:15:34]:: e084a35
+12.  DEV: Removing the fotter from blog page ::[2025-01-22 00:20:30]:: 4743eb7
+13.  DEV: Adding new tech in front page ::[2024-12-05 15:14:39]:: a06df8e
+14.  DEV: Making the header color less red ::[2024-12-05 14:50:08]:: 0290b71
+15.  DEV: Making ui bit more consise and colorfull ::[2024-12-05 01:33:02]:: 17d2fe5
+16.  DEV: Removing the resume ::[2024-11-26 00:04:44]:: 53ec7cd
+17.  SEARCH: Adding search feature ::[2024-11-17 15:58:05]:: ce717b4
+18.  FIX: Fixing the back link ::[2024-11-17 15:43:59]:: 485c9b7
+19.  DEV: Adding social card ::[2024-11-16 20:30:30]:: 5fb064d
+20.  DEV: Adding nice social graphs ::[2024-11-16 20:20:25]:: 3e56882
+21.  DEV: Adding nice social graphs ::[2024-11-16 20:13:32]:: 991b8af
+22.  DEV: Adding nice social graphs ::[2024-11-16 20:09:54]:: bf9ee07
+23.  DEV: Adding more ui ::[2024-11-16 19:51:42]:: 2c82f7d
+24.  DEV: Adding resume ::[2024-11-16 19:34:24]:: 45e0802
+25.  DEV: Removing card.png ::[2024-11-16 18:52:41]:: dafe017
+26.  DEV: Adding new ui and things ::[2024-11-16 18:50:07]:: 941eaa9
+27.  DEV: Adding new ui and things ::[2024-11-16 18:45:32]:: 3b5468a
+28.  DEV: Adding new ui and things ::[2024-11-16 18:43:08]:: 5ee4379
+29.  Fix: Fixing the rss feed geenrator ::[2024-08-25 06:57:12]:: 36ce432
+30.  README ::[2024-08-25 06:54:53]:: 4ba7a33
+31.  README ::[2024-08-25 06:48:19]:: a1d77a0
+32.  FIX: FIXING THE HEAD SECTION ::[2024-06-11 16:25:22]:: a3364e2
+33.  FIX: FIXING THE HEAD SECTION ::[2024-06-11 16:24:38]:: cbc9569
+34.  FIX: FIXING THE HEAD SECTION ::[2024-06-11 16:21:09]:: caec633
+35.  FIX: Fixing the page discription of meta ::[2024-06-11 16:09:01]:: debf2f1
+36.  FIX: Fixing the page discription of meta ::[2024-06-11 16:08:42]:: a1acfe9
+37.  FIX: Fixing the page discription of meta ::[2024-06-11 15:49:34]:: 9f9ae58
+38.  DEV: ADDING DISCRIPTION ::[2024-06-11 15:38:31]:: 077b234
+39.  DEV: ADDING DISCRIPTION ::[2024-06-11 15:35:08]:: 7c7c610
+40.  DEV: Adding discription ::[2024-06-11 15:26:11]:: c63608c
+41.  TYPO: Fixing the reading page ::[2024-06-05 14:30:56]:: a240a0f
+42.  FIX: Fixing the home page ::[2024-06-05 14:26:36]:: aeab404
+43.  DEV: Removing the rss feeed button ::[2024-06-05 14:22:16]:: bef1b8f
+44.  DEV: Removing the rss feeed button ::[2024-06-05 14:16:20]:: 5da2ad7
+45.  FIX: Fixing the discription of meta tags of difftent sections ::[2024-06-04 11:38:19]:: 1cba12b
+46.  DEV: making deployment ::[2024-06-01 13:43:23]:: 8785f55
+47.  DEV: Fixing the folloter ::[2024-06-01 13:35:00]:: 8b584d9
+48.  DEV: Adding footer ::[2024-06-01 13:19:27]:: add90c5
+49.  DEV: Adding ocpp server blog ::[2024-05-12 23:28:19]:: 227466c
+50.  DEV: Adding ocpp server blog ::[2024-05-12 23:26:18]:: f7100a1
+51.  DEV: Adding ocpp server blog ::[2024-05-12 23:19:48]:: 6c8296f
+52.  Adding repo link ::[2024-04-16 10:28:12]:: d0ff409
+53.  Refining the reading section ::[2024-04-12 09:37:39]:: 5a2293b
+54.  Refining the reading section ::[2024-04-12 09:36:30]:: 12a6868
+55.  DEV: Refining the content on fornt mage ::[2024-04-12 09:29:00]:: f5d4fcc
+56.  DEV: Adding some changes ::[2024-04-12 02:32:44]:: cfe0e6d
+57.  DEV: Adding some final touchs ::[2024-04-12 02:23:40]:: 4ba3da7
+58.  DEV: Adding some final touchs ::[2024-04-12 02:20:50]:: cb5a348
+59.  FIX: Fixing the meta description ::[2024-04-12 02:14:14]:: 2142d25
+60.  DEV: Chnaign the legion logo layout ::[2024-04-11 22:46:02]:: 010a5a5
+61.  DEV: Changing the font back ::[2024-04-10 22:21:36]:: 40722b1
+62.  DEV: Changing the font -2 ::[2024-04-10 22:18:35]:: 05172ae
+63.  DEV: Changing the font ::[2024-04-10 22:16:49]:: 814a0d8
+64.  DEV: Adding cat ::[2024-04-10 21:59:21]:: 17370b0
+65.  FIX: Fixing the retro layought ::[2024-04-10 18:21:58]:: 18138ad
+66.  DEV: Adding the layout ::[2024-04-10 15:23:18]:: d664e0a
+67.  DEV: Adding the new layout on the cilpart ::[2024-04-10 15:21:40]:: 8c93df9
+68.  DEV: Adding new about me for site ::[2024-04-10 15:16:30]:: 2cb885e
+69.  DEV: Removing the discord presence ::[2024-04-07 21:29:48]:: 1db2d5a
+70.  DEV: Adding twitter link ::[2024-04-01 10:51:13]:: d9244b1
+71.  DEV: Adding discord presence ::[2024-03-28 14:24:09]:: 50fde7a
+72.  DEV: Changinf the head section of pages ::[2024-03-19 10:54:07]:: c1ce991
+73.  DEV: Changinf the head section of pages ::[2024-03-19 10:43:50]:: 44d6a41
+74.  DEV: Changinf the head section of pages ::[2024-03-19 10:36:40]:: 950e350
+75.  DEV: Adding card.png ::[2024-03-18 01:20:53]:: 6ae21f0
+76.  DEV: Adding card.png ::[2024-03-18 01:18:35]:: 8038721
+77.  DEV: Adding card.png ::[2024-03-18 01:07:49]:: 521bd28
+78.  FIX: Reverting to previus cox i dont know css ::[2024-03-18 00:11:31]:: 2ccb0f5
+79.  DEV: Making the nav bar fixed ::[2024-03-18 00:08:44]:: 4f18251
+80.  DEV: Making the nav bar fixed ::[2024-03-18 00:06:25]:: 6dd74f6
+81.  DEV: Making the nav bar fixed ::[2024-03-18 00:03:17]:: 76cceaf
+82.  DEV: Making the nav bar fixed ::[2024-03-18 00:00:56]:: 1d09704
+83.  FIX: Fixing the navbar to be static -2 ::[2024-03-17 23:56:17]:: 1201f7f
+84.  FIX: Fixing the navbar to be static ::[2024-03-17 23:53:39]:: 958e389
+85.  FIX: Fixing the navbar to be static && series in blogs ::[2024-03-17 23:47:52]:: 1382e96
+86.  FIX: Fixing the link preview ::[2024-03-16 15:48:30]:: a929946
+87.  FIX: Fixing the blog title page ::[2024-03-14 17:32:02]:: 9ff8b0e
+88.  FIX: Fixing the blog title page ::[2024-03-14 16:58:38]:: 2c0769d
+89.  FIX: Fixing the url ::[2024-03-13 22:58:05]:: 1595373
+90.  DEV: FIXING THE URL ::[2024-03-09 08:08:21]:: 85f126f
+91.  DEV: Adding netlify deployemnt status badge ::[2024-03-08 19:53:07]:: b079e58
+92.  DEV: Adding google analytics ::[2024-03-08 19:45:20]:: 1a9379d
+93.  Adding card ::[2024-03-05 23:32:49]:: 0afcdcc
+94.  DEV: Added the default dark mode ::[2024-03-05 23:17:42]:: e162180
+95.  ADING -111 ::[2024-03-05 23:12:19]:: da1a3ec
+96.  ADING -111 ::[2024-03-05 23:06:45]:: ce2ee63
+97.  ADING -111 ::[2024-03-05 22:55:24]:: 31b61be
+98.  ====== ::[2024-03-05 22:32:39]:: 26682bd
+99.  DEV: Adding force dark mode --1 ::[2024-03-05 22:03:16]:: 7c8b433
+100.  FIX: Fixing the dark mode ::[2024-03-04 23:07:44]:: f0b4c01
+101.  FIX: Fixing the dark mode ::[2024-03-04 23:05:08]:: a14ea85
+102.  FIX: Fizinf the default light mode ::[2024-03-04 22:37:14]:: 9dec976
+103.  Adding new domain hope it works ::[2024-03-03 23:53:34]:: 17762d7
+104.  Adding last domain ::[2024-03-03 23:04:11]:: 2f0e5cb
+105.  DEV: Adding new domain ::[2024-03-03 22:47:48]:: 440bb3e
+106.  DEV: Adding new domain ::[2024-03-03 22:10:16]:: 8eacf94
+107.  DEV: Adding new domain ::[2024-03-03 21:50:54]:: 2e94ebd
+108.  DEV: Adding new domain ::[2024-03-03 21:43:34]:: cc5b490
+109.  Adding the desing in logo ::[2024-03-01 23:14:25]:: a5df935
+110.  Adding the linting ::[2024-02-29 10:56:11]:: ad488b8
+111.  Adding the email in not crawalend foam ::[2024-02-29 10:53:07]:: 5fa9c74
+112.  FIX: Har man giya ki nahi kr paunga ::[2024-02-25 23:42:26]:: c32303e
+113.  FIX: Fixing the default dark mode ::[2024-02-25 23:32:24]:: 8a68414
+114.  FIX: Fixing the default dark mode ::[2024-02-25 23:29:55]:: 5824ecb
+115.  DEV: Adding google analytics ::[2024-02-25 23:09:04]:: 5bcc80d
+116.  DEV: Adding google analytics ::[2024-02-25 23:01:54]:: 3e327ce
+117.  DEV: Adding google analytices ::[2024-02-25 22:51:57]:: 898c58d
+118.  DEV:Adding style and formating ::[2024-02-24 23:20:39]:: 616b868
+119.  FIX: Fixing ::[2024-02-19 12:30:23]:: 4a9800d
+120.  TEST: Testing on live ::[2024-02-19 12:28:10]:: 68ad34a
+121.  Fixing typos ::[2024-01-18 11:34:12]:: 0427d29
+122.  Adding card for link preview ::[2024-01-07 20:31:30]:: cefd28a
+123.  Adding some minor chnges like tags and fixing links ::[2024-01-07 20:28:38]:: bae46b8
+124.  Adding projects ::[2024-01-07 20:23:25]:: 408e42e
+
+===== Repository: cash_table =====
+Total Commits: 13
+Commits:
+1.  FIX: Fixing the cmake errors ::[2024-11-13 22:22:52]:: 72df60d
+2.  FIX: Fixing the build faild error of github actions ::[2024-11-03 00:18:49]:: 179cc3d
+3.  FIX: Fixing the build error ::[2024-11-03 00:13:52]:: f0518ac
+4.  BENCH: Benchmarking with perf ::[2024-11-03 00:11:27]:: cb5c8f5
+5.  BENCH: Benchmarking with perf ::[2024-11-03 00:09:51]:: a0ad2c1
+6.  DEV: Adding workflows ::[2024-11-02 23:12:40]:: 1e94a1d
+7.  DEV: Adding support for evry type of data ::[2024-11-02 22:59:33]:: f6eee97
+8.  DEV: Setting up test ::[2024-11-02 22:46:57]:: 2f99258
+9.  DEV: Restructiong th folder ::[2024-11-02 22:39:49]:: d54fca3
+10.  README: Adding readme ::[2024-11-02 17:36:46]:: fa819a7
+11.  DEV: Making shell more interactive ::[2024-11-02 17:34:56]:: d6e48cc
+12.  FIX: Fixing the errors ::[2024-11-01 10:51:51]:: 2f5635b
+13.  DEV: Setting up the basic project structure ::[2024-11-01 10:33:20]:: 9750e88
+
+===== Repository: java_lld =====
+Total Commits: 42
+Commits:
+1.  DEV: Adding i dont know what i did ::[2025-01-23 18:57:58]:: ca72913
+2.  DEV: Adding few changes ::[2025-01-23 18:21:07]:: 8256d6d
+3.  DEV: Adding code for FilebasedConfigurationManger ::[2025-01-23 16:29:36]:: 70a3663
+4.  DEV: Adding 3 questions to singleton folder ::[2025-01-23 15:13:27]:: 10ef112
+5.  DEV; Adding the database conector ::[2025-01-21 23:53:52]:: f8d0d7c
+6.  DEV: Removing the unused from pom  file ::[2025-01-21 17:35:26]:: 4ea2f5b
+7.  DEV: Adidng database connection code ::[2025-01-21 17:23:32]:: 0d4c2ad
+8.  DEV: ADDING THE BOOK DETAILS ] ::[2025-01-21 14:10:11]:: d8e59f6
+9.  DEV: ADDING THE BOOK DETAILS ] ::[2025-01-21 14:05:15]:: 0fe29d1
+10.  DEV: CHNGING THE ID ::[2025-01-21 13:56:33]:: 57d983a
+11.  DEV: Restructring the project ::[2025-01-21 13:46:44]:: c79ee0b
+12.  DEV: Adding diffrent appoch of singleton method ::[2025-01-15 14:43:51]:: 82206f6
+13.  DEV: Adding ther multi thjreaded imp of singlton ::[2025-01-15 14:11:39]:: e807b7c
+14.  DEV: Adding the singleton class code ::[2025-01-15 14:05:13]:: 8aec4f1
+15.  Minor changes ::[2025-01-03 12:25:09]:: 3166a97
+16.  DEV: Adding new chnages ::[2025-01-03 12:20:33]:: e6c0c50
+17.  DEV: Adding untract files of the platfoam ::[2024-12-11 06:21:55]:: 8185995
+18.  DEV: Adding the genearics example ::[2024-12-02 12:25:04]:: 3194a86
+19.  DEV: Adding the thread using callble and runable ::[2024-11-11 18:49:00]:: 540c5d6
+20.  DEV: Thread demonstration using runable interface ::[2024-11-11 01:14:47]:: 99049bd
+21.  DEV: Adding the all callable objects in main ::[2024-11-07 17:14:28]:: 15736c7
+22.  DEV: UPCASTING AND DOWNCASTING ::[2024-11-06 20:49:53]:: d42ff8f
+23.  DEV: Cleaning the main class in opps-1 for better readeablity ::[2024-11-02 16:51:28]:: e15fca7
+24.  DEV: Function overrriding ::[2024-11-01 10:04:06]:: bb39166
+25.  DEV: Adding the polymorphism ::[2024-11-01 09:16:04]:: 878c175
+26.  DEV:  A dding the polymorphism in the code ::[2024-11-01 09:09:32]:: c17a01a
+27.  DEV: Adding inheriance and super keyword ::[2024-10-31 22:00:01]:: f5ea65c
+28.  DEV: Adding comts ::[2024-10-31 20:05:16]:: e571dbb
+29.  DEV: Adding some cmnts in user and some more ::[2024-10-31 16:43:56]:: fda1212
+30.  DEV: Adding the iphone class for beeter understanding ::[2024-10-25 10:18:39]:: a2854f1
+31.  DEV: Adding deep copy and shallow copy ::[2024-10-23 12:42:12]:: 1981ca4
+32.  DEV: Exploring copy constructors ::[2024-10-21 10:23:18]:: d029e93
+33.  DEV: Accessing private members from public constructor ::[2024-10-20 23:02:56]:: f80efc3
+34.  DEV: Writing diffrent way of using class and it objec in main method ::[2024-10-20 19:51:41]:: 07bc5c2
+35.  FIX: Fixing the basic warnings ::[2024-10-20 19:12:46]:: 1d8c001
+36.  FIX: Fixing the basic warnings ::[2024-10-20 18:50:26]:: 036b0fb
+37.  STRUCT: Making better folder structure for making things easy acess ::[2024-10-20 18:44:01]:: df0f6c0
+38.  DEV: Adding md book ::[2024-10-20 18:40:30]:: c629fca
+39.  DEV: Learning basic access modifiers ::[2024-10-20 18:24:22]:: 66ba164
+40.  README: Adding readme ::[2024-10-20 15:35:07]:: 2ef210d
+41.  README: Adding readme ::[2024-10-20 15:09:41]:: 66e84b1
+42.  DEV: Setting up the java project in pakage foam ::[2024-10-20 15:08:10]:: 9bcf0c0
+
+===== Repository: the_art_of_multithreading =====
+Total Commits: 9
+Commits:
+1.  DEPLOYMENT: Making ready for gihtuib pages ::[2024-10-14 00:53:00]:: af69d51
+2.  DEPLOYMENT: Making ready for gihtuib pages ::[2024-10-14 00:27:00]:: 55a2ca5
+3.  DEPLOYMENT: Making ready for gihtuib pages ::[2024-10-14 00:24:40]:: 38edc6a
+4.  vault backup: 2024-10-13 22:52:12 ::[2024-10-13 22:52:12]:: 0ac7eff
+5.  vault backup: 2024-10-13 22:51:28 ::[2024-10-13 22:51:28]:: 0c3fbbf
+6.  vault backup: 2024-10-13 22:48:27 ::[2024-10-13 22:48:27]:: 54aa15c
+7.  DEV: Adding the README.md for the project ::[2024-09-12 02:08:04]:: f3b9c59
+8.  DEV: Adding the fundamentals ::[2024-08-06 14:58:56]:: 974a2a8
+9.  SETUP: Setting up the project ::[2024-08-06 14:36:35]:: 2d47cc5
