@@ -7,7 +7,8 @@ Here is i have made a simple python script which will gneerate a report of your 
 
 ## 🎥 Demo
 
-![alt text](image.png)
+![alt text](./img.png)
+
 Check out a sample generated report: [View Sample Report](report.pdf)
 
 ## 📋 What You'll Get
