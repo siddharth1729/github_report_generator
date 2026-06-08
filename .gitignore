@@ -1,0 +1,25 @@
+# Cloned repositories used to build the report
+.cache/
+
+# Generated reports - uncomment if you don't want to commit them
+# report.pdf
+# report.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+# Stray placeholder venv from earlier experimentation
+path/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

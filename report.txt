@@ -1,214 +1,462 @@
-==================================================
+============================================================
 Developer Name           : Siddharth Sabron
-Report Generated On      : 2025-02-17 01:38:29
-Date Range               : 2024-01-01 to 2025-02-15
-Total Repositories Worked: 4
-Total Commits            : 188
-==================================================
+Report Generated On      : 2026-06-08 21:19:51
+Date Range               : 2022-01-01 to 2026-06-08
+Total Repositories       : 7
+Total Commits            : 420
+Total Lines Added        : +54047
+Total Lines Deleted      : -36466
+============================================================
 
-===== OVERALL REPORT =====
-Total Commits: 188
+----- Consolidated Statistics -----
+Total lines changed             : 90,513
+Net change                      : +17,581
+Avg commits per repository      : 60.0
+Avg lines added per commit      : +128.7
+Avg lines deleted per commit    : -86.8
+Most active repository          : my_website (333 commits)
+Most prolific repository        : my_website (69,066 lines)
+First commit in range (UTC)     : 2023-03-20
+Latest commit in range (UTC)    : 2026-04-24
+Unique active days              : 146
 
-===== Repository: my_website =====
-Total Commits: 124
-Commits:
-1.  FIX: Fixing the rss feed og the site ::[2025-02-10 01:18:27]:: 53871eb
-2.  DEV: Making page scroll smothly ::[2025-02-10 00:39:28]:: 34a537d
-3.  DEV: Some minor chnges ::[2025-02-10 00:31:36]:: 1654b93
-4.  DEV: Making search grat again ::[2025-02-08 16:26:06]:: 2b89324
-5.  DEV: Making search great again ::[2025-02-08 16:22:12]:: b0e534f
-6.  DEV: Fixing the search ::[2025-02-08 16:16:40]:: f7915eb
-7.  DEV: Making box glowy of nav bar ::[2025-02-08 14:57:06]:: e405271
-8.  DEV: Adding more style tot he blog page ::[2025-02-08 14:51:33]:: e3cc700
-9.  DEV: Making font color with warm ::[2025-02-08 14:32:29]:: 7e36cea
-10.  DEV: Ching font size ::[2025-02-08 14:18:01]:: 8d82e7e
-11.  DEV: Adding new font and size ::[2025-02-08 14:15:34]:: e084a35
-12.  DEV: Removing the fotter from blog page ::[2025-01-22 00:20:30]:: 4743eb7
-13.  DEV: Adding new tech in front page ::[2024-12-05 15:14:39]:: a06df8e
-14.  DEV: Making the header color less red ::[2024-12-05 14:50:08]:: 0290b71
-15.  DEV: Making ui bit more consise and colorfull ::[2024-12-05 01:33:02]:: 17d2fe5
-16.  DEV: Removing the resume ::[2024-11-26 00:04:44]:: 53ec7cd
-17.  SEARCH: Adding search feature ::[2024-11-17 15:58:05]:: ce717b4
-18.  FIX: Fixing the back link ::[2024-11-17 15:43:59]:: 485c9b7
-19.  DEV: Adding social card ::[2024-11-16 20:30:30]:: 5fb064d
-20.  DEV: Adding nice social graphs ::[2024-11-16 20:20:25]:: 3e56882
-21.  DEV: Adding nice social graphs ::[2024-11-16 20:13:32]:: 991b8af
-22.  DEV: Adding nice social graphs ::[2024-11-16 20:09:54]:: bf9ee07
-23.  DEV: Adding more ui ::[2024-11-16 19:51:42]:: 2c82f7d
-24.  DEV: Adding resume ::[2024-11-16 19:34:24]:: 45e0802
-25.  DEV: Removing card.png ::[2024-11-16 18:52:41]:: dafe017
-26.  DEV: Adding new ui and things ::[2024-11-16 18:50:07]:: 941eaa9
-27.  DEV: Adding new ui and things ::[2024-11-16 18:45:32]:: 3b5468a
-28.  DEV: Adding new ui and things ::[2024-11-16 18:43:08]:: 5ee4379
-29.  Fix: Fixing the rss feed geenrator ::[2024-08-25 06:57:12]:: 36ce432
-30.  README ::[2024-08-25 06:54:53]:: 4ba7a33
-31.  README ::[2024-08-25 06:48:19]:: a1d77a0
-32.  FIX: FIXING THE HEAD SECTION ::[2024-06-11 16:25:22]:: a3364e2
-33.  FIX: FIXING THE HEAD SECTION ::[2024-06-11 16:24:38]:: cbc9569
-34.  FIX: FIXING THE HEAD SECTION ::[2024-06-11 16:21:09]:: caec633
-35.  FIX: Fixing the page discription of meta ::[2024-06-11 16:09:01]:: debf2f1
-36.  FIX: Fixing the page discription of meta ::[2024-06-11 16:08:42]:: a1acfe9
-37.  FIX: Fixing the page discription of meta ::[2024-06-11 15:49:34]:: 9f9ae58
-38.  DEV: ADDING DISCRIPTION ::[2024-06-11 15:38:31]:: 077b234
-39.  DEV: ADDING DISCRIPTION ::[2024-06-11 15:35:08]:: 7c7c610
-40.  DEV: Adding discription ::[2024-06-11 15:26:11]:: c63608c
-41.  TYPO: Fixing the reading page ::[2024-06-05 14:30:56]:: a240a0f
-42.  FIX: Fixing the home page ::[2024-06-05 14:26:36]:: aeab404
-43.  DEV: Removing the rss feeed button ::[2024-06-05 14:22:16]:: bef1b8f
-44.  DEV: Removing the rss feeed button ::[2024-06-05 14:16:20]:: 5da2ad7
-45.  FIX: Fixing the discription of meta tags of difftent sections ::[2024-06-04 11:38:19]:: 1cba12b
-46.  DEV: making deployment ::[2024-06-01 13:43:23]:: 8785f55
-47.  DEV: Fixing the folloter ::[2024-06-01 13:35:00]:: 8b584d9
-48.  DEV: Adding footer ::[2024-06-01 13:19:27]:: add90c5
-49.  DEV: Adding ocpp server blog ::[2024-05-12 23:28:19]:: 227466c
-50.  DEV: Adding ocpp server blog ::[2024-05-12 23:26:18]:: f7100a1
-51.  DEV: Adding ocpp server blog ::[2024-05-12 23:19:48]:: 6c8296f
-52.  Adding repo link ::[2024-04-16 10:28:12]:: d0ff409
-53.  Refining the reading section ::[2024-04-12 09:37:39]:: 5a2293b
-54.  Refining the reading section ::[2024-04-12 09:36:30]:: 12a6868
-55.  DEV: Refining the content on fornt mage ::[2024-04-12 09:29:00]:: f5d4fcc
-56.  DEV: Adding some changes ::[2024-04-12 02:32:44]:: cfe0e6d
-57.  DEV: Adding some final touchs ::[2024-04-12 02:23:40]:: 4ba3da7
-58.  DEV: Adding some final touchs ::[2024-04-12 02:20:50]:: cb5a348
-59.  FIX: Fixing the meta description ::[2024-04-12 02:14:14]:: 2142d25
-60.  DEV: Chnaign the legion logo layout ::[2024-04-11 22:46:02]:: 010a5a5
-61.  DEV: Changing the font back ::[2024-04-10 22:21:36]:: 40722b1
-62.  DEV: Changing the font -2 ::[2024-04-10 22:18:35]:: 05172ae
-63.  DEV: Changing the font ::[2024-04-10 22:16:49]:: 814a0d8
-64.  DEV: Adding cat ::[2024-04-10 21:59:21]:: 17370b0
-65.  FIX: Fixing the retro layought ::[2024-04-10 18:21:58]:: 18138ad
-66.  DEV: Adding the layout ::[2024-04-10 15:23:18]:: d664e0a
-67.  DEV: Adding the new layout on the cilpart ::[2024-04-10 15:21:40]:: 8c93df9
-68.  DEV: Adding new about me for site ::[2024-04-10 15:16:30]:: 2cb885e
-69.  DEV: Removing the discord presence ::[2024-04-07 21:29:48]:: 1db2d5a
-70.  DEV: Adding twitter link ::[2024-04-01 10:51:13]:: d9244b1
-71.  DEV: Adding discord presence ::[2024-03-28 14:24:09]:: 50fde7a
-72.  DEV: Changinf the head section of pages ::[2024-03-19 10:54:07]:: c1ce991
-73.  DEV: Changinf the head section of pages ::[2024-03-19 10:43:50]:: 44d6a41
-74.  DEV: Changinf the head section of pages ::[2024-03-19 10:36:40]:: 950e350
-75.  DEV: Adding card.png ::[2024-03-18 01:20:53]:: 6ae21f0
-76.  DEV: Adding card.png ::[2024-03-18 01:18:35]:: 8038721
-77.  DEV: Adding card.png ::[2024-03-18 01:07:49]:: 521bd28
-78.  FIX: Reverting to previus cox i dont know css ::[2024-03-18 00:11:31]:: 2ccb0f5
-79.  DEV: Making the nav bar fixed ::[2024-03-18 00:08:44]:: 4f18251
-80.  DEV: Making the nav bar fixed ::[2024-03-18 00:06:25]:: 6dd74f6
-81.  DEV: Making the nav bar fixed ::[2024-03-18 00:03:17]:: 76cceaf
-82.  DEV: Making the nav bar fixed ::[2024-03-18 00:00:56]:: 1d09704
-83.  FIX: Fixing the navbar to be static -2 ::[2024-03-17 23:56:17]:: 1201f7f
-84.  FIX: Fixing the navbar to be static ::[2024-03-17 23:53:39]:: 958e389
-85.  FIX: Fixing the navbar to be static && series in blogs ::[2024-03-17 23:47:52]:: 1382e96
-86.  FIX: Fixing the link preview ::[2024-03-16 15:48:30]:: a929946
-87.  FIX: Fixing the blog title page ::[2024-03-14 17:32:02]:: 9ff8b0e
-88.  FIX: Fixing the blog title page ::[2024-03-14 16:58:38]:: 2c0769d
-89.  FIX: Fixing the url ::[2024-03-13 22:58:05]:: 1595373
-90.  DEV: FIXING THE URL ::[2024-03-09 08:08:21]:: 85f126f
-91.  DEV: Adding netlify deployemnt status badge ::[2024-03-08 19:53:07]:: b079e58
-92.  DEV: Adding google analytics ::[2024-03-08 19:45:20]:: 1a9379d
-93.  Adding card ::[2024-03-05 23:32:49]:: 0afcdcc
-94.  DEV: Added the default dark mode ::[2024-03-05 23:17:42]:: e162180
-95.  ADING -111 ::[2024-03-05 23:12:19]:: da1a3ec
-96.  ADING -111 ::[2024-03-05 23:06:45]:: ce2ee63
-97.  ADING -111 ::[2024-03-05 22:55:24]:: 31b61be
-98.  ====== ::[2024-03-05 22:32:39]:: 26682bd
-99.  DEV: Adding force dark mode --1 ::[2024-03-05 22:03:16]:: 7c8b433
-100.  FIX: Fixing the dark mode ::[2024-03-04 23:07:44]:: f0b4c01
-101.  FIX: Fixing the dark mode ::[2024-03-04 23:05:08]:: a14ea85
-102.  FIX: Fizinf the default light mode ::[2024-03-04 22:37:14]:: 9dec976
-103.  Adding new domain hope it works ::[2024-03-03 23:53:34]:: 17762d7
-104.  Adding last domain ::[2024-03-03 23:04:11]:: 2f0e5cb
-105.  DEV: Adding new domain ::[2024-03-03 22:47:48]:: 440bb3e
-106.  DEV: Adding new domain ::[2024-03-03 22:10:16]:: 8eacf94
-107.  DEV: Adding new domain ::[2024-03-03 21:50:54]:: 2e94ebd
-108.  DEV: Adding new domain ::[2024-03-03 21:43:34]:: cc5b490
-109.  Adding the desing in logo ::[2024-03-01 23:14:25]:: a5df935
-110.  Adding the linting ::[2024-02-29 10:56:11]:: ad488b8
-111.  Adding the email in not crawalend foam ::[2024-02-29 10:53:07]:: 5fa9c74
-112.  FIX: Har man giya ki nahi kr paunga ::[2024-02-25 23:42:26]:: c32303e
-113.  FIX: Fixing the default dark mode ::[2024-02-25 23:32:24]:: 8a68414
-114.  FIX: Fixing the default dark mode ::[2024-02-25 23:29:55]:: 5824ecb
-115.  DEV: Adding google analytics ::[2024-02-25 23:09:04]:: 5bcc80d
-116.  DEV: Adding google analytics ::[2024-02-25 23:01:54]:: 3e327ce
-117.  DEV: Adding google analytices ::[2024-02-25 22:51:57]:: 898c58d
-118.  DEV:Adding style and formating ::[2024-02-24 23:20:39]:: 616b868
-119.  FIX: Fixing ::[2024-02-19 12:30:23]:: 4a9800d
-120.  TEST: Testing on live ::[2024-02-19 12:28:10]:: 68ad34a
-121.  Fixing typos ::[2024-01-18 11:34:12]:: 0427d29
-122.  Adding card for link preview ::[2024-01-07 20:31:30]:: cefd28a
-123.  Adding some minor chnges like tags and fixing links ::[2024-01-07 20:28:38]:: bae46b8
-124.  Adding projects ::[2024-01-07 20:23:25]:: 408e42e
+----- 4.1 my_website -----
+Commits: 333  |  +35799 / -33267
+  1. 2026-04-08 21:56  133cd41  (+0/-21)  DEV: Removing the reading route
+  2. 2026-03-28 17:47  ad50bf5  (+7/-6)  DEV: Updating the fonts
+  3. 2026-03-27 21:27  028e719  (+3/-2)  DEV: Fine tuningthe url shortner
+  4. 2026-03-27 21:22  fb3c59d  (+111/-113)  DEV: Adding the url shortner blog
+  5. 2026-03-27 20:34  beb6e03  (+15/-9)  DEV: Updating the home page
+  6. 2026-03-12 06:22  604bc09  (+7/-7)  DEV: New descriptions for few blogs and projects
+  7. 2026-03-12 06:02  7d068a5  (+11/-3)  DEV: Fixing the common description issue
+  8. 2026-03-07 03:28  7d0279b  (+47/-5)  SEO: Add JSON-LD schema markup and fix description typos across content
+  9. 2026-01-10 16:51  47e6034  (+4/-4)  DEV: Updating to new zola version and bit og syntx changes
+ 10. 2026-01-10 16:50  c0cf39f  (+1/-1)  DEV: Updating to new zola version and bit og syntx changes
+ 11. 2026-01-10 16:47  29afc3f  (+140/-8)  DEV: Updating to new zola version and bit og syntx changes
+ 12. 2025-11-28 20:42  da12b65  (+1/-2)  DEV: Adding new images and updating the readme
+ 13. 2025-11-28 20:34  5ec1d23  (+172/-79)  DEV: Adding new images and updating the readme
+ 14. 2025-08-10 14:30  578c170  (+1/-1)  DEV: Adding new resume
+ 15. 2025-06-27 13:22  550d048  (+4/-4)  DEV: Adding new font size by gemini cli
+ 16. 2025-06-27 13:19  8c0e29b  (+11/-69)  feat: responsive font sizes
+ 17. 2025-06-18 07:29  26d6877  (+13/-7)  DEV: Fixing the logging library blog code
+ 18. 2025-06-15 10:36  1c25a86  (+13/-163)  DEV: Fixing the logging library blog code
+ 19. 2025-06-15 10:18  f31777b  (+357/-326)  DEV: Stash chnges
+ 20. 2025-06-14 14:06  24d2ba2  (+5/-4)  DEV; Adding new project java logger
+ 21. 2025-06-14 13:58  c6d51b9  (+537/-0)  DEV : Adding new project
+ 22. 2025-06-14 13:11  6deeb32  (+22/-1)  DEV: Adding resume
+ 23. 2025-06-14 12:57  22413d4  (+2/-1)  DEV: Adding new resume link
+ 24. 2025-06-14 12:56  7a39aab  (+1/-0)  DEV: Adding new resume link
+ 25. 2025-05-04 16:04  00e4e0e  (+185/-2)  DEV: Minor chnges
+ 26. 2025-04-15 19:45  2f61eaa  (+56/-36)  DEV: TAGS CHNGE AND TYPOGRAPHY
+ 27. 2025-04-14 18:27  71d3345  (+3/-1)  DEV: Adding new card
+ 28. 2025-04-14 18:11  4652cb4  (+0/-0)  DEV: Adding new card
+ 29. 2025-04-10 10:00  c087da9  (+61/-51)  DEV: Fixing the font
+ 30. 2025-04-10 09:09  3141a1a  (+74/-80)  DEV: Adding new font
+ 31. 2025-03-15 06:04  1ac64cd  (+37/-33)  DEV: Making nax bar to look good in phone and big screen
+ 32. 2025-03-15 05:41  bb58448  (+203/-36)  DEV: Making nav in phone look simalr to laptop
+ 33. 2025-03-15 04:58  b7eff30  (+3/-0)  DEV: Adding new lines in ava code in id generater blog
+ 34. 2025-03-09 17:57  6a20f8f  (+26/-17)  DEV: Adding unsplash pic links in blogs
+ 35. 2025-03-03 14:38  97524af  (+1/-1)  DEV: Fix: fixing the uuid issue
+ 36. 2025-03-03 14:36  6a084ef  (+2/-2)  DEV: Fix: fixing the uuid issue
+ 37. 2025-03-02 13:10  849688f  (+16/-16)  DEV: Changing the title and discritpion of the blog
+ 38. 2025-03-01 13:10  78ec337  (+2/-2)  DEV: Adding original link for pic
+ 39. 2025-03-01 12:59  7c96c7c  (+2/-2)  DEV: Adding original link for pic
+ 40. 2025-03-01 12:29  78c9e68  (+4/-4)  DEV: Removing table of content from distributed id generator blog
+ 41. 2025-03-01 12:20  73225f2  (+205/-0)  DEV: Adding distributed id generator blog
+ 42. 2025-02-25 15:43  727d563  (+77/-24)  DEV: Adding github generator project
+ 43. 2025-02-20 10:15  e000d11  (+11/-8)  DEV: Adding extra content
+ 44. 2025-02-20 09:42  1af7b7a  (+5/-5)  DEV: Making the nav bar fixed on scroll
+ 45. 2025-02-19 20:34  4cc43b3  (+0/-2)  DEV: Fixing the netlify error
+ 46. 2025-02-19 20:32  978cddd  (+1/-712)  DEV: DELETING THE BETA BRANCH
+ 47. 2025-02-19 19:22  88fb6d6  (+830/-3)  DEV: Lings and heading cnges
+ 48. 2025-02-19 18:39  1d46997  (+1333/-417)  DEV: Adding a beta release
+ 49. 2025-02-18 10:29  0cc3816  (+14/-619)  DEV: Adding old font
+ 50. 2025-02-18 09:57  e3a6236  (+625/-29)  DEV: INCREASING THE FONT SIZE
+ 51. 2025-02-18 09:22  0864742  (+9/-595)  DEV: Increasing the font size
+ 52. 2025-02-18 09:13  0b637b8  (+206/-48)  DEV: Plying around with font size
+ 53. 2025-02-18 09:01  834d5bd  (+662/-165)  DEV: Increasing the font size
+ 54. 2025-02-09 19:48  53871eb  (+5/-2817)  FIX: Fixing the rss feed og the site
+ 55. 2025-02-09 19:09  34a537d  (+28/-2)  DEV: Making page scroll smothly
+ 56. 2025-02-09 19:01  1654b93  (+6/-8)  DEV: Some minor chnges
+ 57. 2025-02-08 10:56  2b89324  (+1/-1)  DEV: Making search grat again
+ 58. 2025-02-08 10:52  b0e534f  (+2/-2)  DEV: Making search great again
+ 59. 2025-02-08 10:46  f7915eb  (+148/-65)  DEV: Fixing the search
+ 60. 2025-02-08 09:27  e405271  (+16/-4)  DEV: Making box glowy of nav bar
+ 61. 2025-02-08 09:21  e3cc700  (+169/-10)  DEV: Adding more style tot he blog page
+ 62. 2025-02-08 09:02  7e36cea  (+21/-21)  DEV: Making font color with warm
+ 63. 2025-02-08 08:48  8d82e7e  (+3/-3)  DEV: Ching font size
+ 64. 2025-02-08 08:45  e084a35  (+40/-21)  DEV: Adding new font and size
+ 65. 2025-01-21 18:50  4743eb7  (+3/-3)  DEV: Removing the fotter from blog page
+ 66. 2024-12-05 09:44  a06df8e  (+4/-4)  DEV: Adding new tech in front page
+ 67. 2024-12-05 09:20  0290b71  (+6/-3)  DEV: Making the header color less red
+ 68. 2024-12-04 20:03  17d2fe5  (+36/-20)  DEV: Making ui bit more consise and colorfull
+ 69. 2024-11-25 18:34  53ec7cd  (+1/-51)  DEV: Removing the resume
+ 70. 2024-11-17 10:28  ce717b4  (+142/-6)  SEARCH: Adding search feature
+ 71. 2024-11-17 10:13  485c9b7  (+4/-3)  FIX: Fixing the back link
+ 72. 2024-11-16 15:00  5fb064d  (+1/-1)  DEV: Adding social card
+ 73. 2024-11-16 14:50  3e56882  (+28/-83)  DEV: Adding nice social graphs
+ 74. 2024-11-16 14:43  991b8af  (+71/-9)  DEV: Adding nice social graphs
+ 75. 2024-11-16 14:39  bf9ee07  (+128/-113)  DEV: Adding nice social graphs
+ 76. 2024-11-16 14:21  2c82f7d  (+325/-106)  DEV: Adding more ui
+ 77. 2024-11-16 14:04  45e0802  (+531/-228)  DEV: Adding resume
+ 78. 2024-11-16 13:22  dafe017  (+0/-0)  DEV: Removing card.png
+ 79. 2024-11-16 13:20  941eaa9  (+33/-26)  DEV: Adding new ui and things
+ 80. 2024-11-16 13:15  3b5468a  (+55/-17)  DEV: Adding new ui and things
+ 81. 2024-11-16 13:13  5ee4379  (+351/-4)  DEV: Adding new ui and things
+ 82. 2024-08-25 01:27  36ce432  (+2/-2)  Fix: Fixing the rss feed geenrator
+ 83. 2024-08-25 01:24  4ba7a33  (+2/-2817)  README
+ 84. 2024-08-25 01:18  a1d77a0  (+6/-0)  README
+ 85. 2024-06-11 10:55  a3364e2  (+30/-26)  FIX: FIXING THE HEAD SECTION
+ 86. 2024-06-11 10:54  cbc9569  (+26/-32)  FIX: FIXING THE HEAD SECTION
+ 87. 2024-06-11 10:51  caec633  (+31/-27)  FIX: FIXING THE HEAD SECTION
+ 88. 2024-06-11 10:39  debf2f1  (+8/-16)  FIX: Fixing the page discription of meta
+ 89. 2024-06-11 10:38  a1acfe9  (+0/-1)  FIX: Fixing the page discription of meta
+ 90. 2024-06-11 10:19  9f9ae58  (+24/-18)  FIX: Fixing the page discription of meta
+ 91. 2024-06-11 10:08  077b234  (+1/-1)  DEV: ADDING DISCRIPTION
+ 92. 2024-06-11 10:05  7c7c610  (+1/-587)  DEV: ADDING DISCRIPTION
+ 93. 2024-06-11 09:56  c63608c  (+2/-2)  DEV: Adding discription
+ 94. 2024-06-05 09:00  a240a0f  (+588/-2)  TYPO: Fixing the reading page
+ 95. 2024-06-05 08:56  aeab404  (+4/-156)  FIX: Fixing the home page
+ 96. 2024-06-05 08:52  bef1b8f  (+3/-0)  DEV: Removing the rss feeed button
+ 97. 2024-06-05 08:46  5da2ad7  (+2/-2)  DEV: Removing the rss feeed button
+ 98. 2024-06-04 06:08  1cba12b  (+3/-3)  FIX: Fixing the discription of meta tags of difftent sections
+ 99. 2024-06-01 08:13  8785f55  (+0/-586)  DEV: making deployment
+100. 2024-06-01 08:05  8b584d9  (+14/-17)  DEV: Fixing the folloter
+101. 2024-06-01 07:49  add90c5  (+273/-45)  DEV: Adding footer
+102. 2024-05-12 17:58  227466c  (+1/-1)  DEV: Adding ocpp server blog
+103. 2024-05-12 17:56  f7100a1  (+12/-8)  DEV: Adding ocpp server blog
+104. 2024-05-12 17:49  6c8296f  (+218/-1)  DEV: Adding ocpp server blog
+105. 2024-04-16 04:58  d0ff409  (+4/-0)  Adding repo link
+106. 2024-04-12 04:07  5a2293b  (+2/-2)  Refining the reading section
+107. 2024-04-12 04:06  12a6868  (+16/-11)  Refining the reading section
+108. 2024-04-12 03:59  f5d4fcc  (+21/-15)  DEV: Refining the content on fornt mage
+109. 2024-04-11 21:02  cfe0e6d  (+4/-3)  DEV: Adding some changes
+110. 2024-04-11 20:53  4ba3da7  (+587/-1)  DEV: Adding some final touchs
+111. 2024-04-11 20:50  cb5a348  (+4/-604)  DEV: Adding some final touchs
+112. 2024-04-11 20:44  2142d25  (+590/-1)  FIX: Fixing the meta description
+113. 2024-04-11 17:16  010a5a5  (+1/-588)  DEV: Chnaign the legion logo layout
+114. 2024-04-10 16:51  40722b1  (+24/-11)  DEV: Changing the font back
+115. 2024-04-10 16:48  05172ae  (+9/-9)  DEV: Changing the font -2
+116. 2024-04-10 16:46  814a0d8  (+9/-22)  DEV: Changing the font
+117. 2024-04-10 16:29  17370b0  (+1/-1)  DEV: Adding cat
+118. 2024-04-10 12:51  18138ad  (+3/-3)  FIX: Fixing the retro layought
+119. 2024-04-10 09:53  d664e0a  (+1/-1)  DEV: Adding the layout
+120. 2024-04-10 09:51  8c93df9  (+607/-4)  DEV: Adding the new layout on the cilpart
+121. 2024-04-10 09:46  2cb885e  (+16/-40)  DEV: Adding new about me for site
+122. 2024-04-07 15:59  1db2d5a  (+1/-1)  DEV: Removing the discord presence
+123. 2024-04-01 05:21  d9244b1  (+27/-1)  DEV: Adding twitter link
+124. 2024-03-28 08:54  50fde7a  (+5/-586)  DEV: Adding discord presence
+125. 2024-03-19 05:24  c1ce991  (+591/-13)  DEV: Changinf the head section of pages
+126. 2024-03-19 05:13  44d6a41  (+49/-63)  DEV: Changinf the head section of pages
+127. 2024-03-19 05:06  950e350  (+63/-38)  DEV: Changinf the head section of pages
+128. 2024-03-17 19:50  6ae21f0  (+1/-1)  DEV: Adding card.png
+129. 2024-03-17 19:48  8038721  (+1/-1)  DEV: Adding card.png
+130. 2024-03-17 19:37  521bd28  (+0/-0)  DEV: Adding card.png
+131. 2024-03-17 18:41  2ccb0f5  (+1/-10)  FIX: Reverting to previus cox i dont know css
+132. 2024-03-17 18:38  4f18251  (+2/-2)  DEV: Making the nav bar fixed
+133. 2024-03-17 18:36  6dd74f6  (+3/-3)  DEV: Making the nav bar fixed
+134. 2024-03-17 18:33  76cceaf  (+13/-6)  DEV: Making the nav bar fixed
+135. 2024-03-17 18:30  1d09704  (+7/-14)  DEV: Making the nav bar fixed
+136. 2024-03-17 18:26  1201f7f  (+3/-3)  FIX: Fixing the navbar to be static -2
+137. 2024-03-17 18:23  958e389  (+13/-4)  FIX: Fixing the navbar to be static
+138. 2024-03-17 18:17  1382e96  (+3/-589)  FIX: Fixing the navbar to be static && series in blogs
+139. 2024-03-16 10:18  a929946  (+2/-2)  FIX: Fixing the link preview
+140. 2024-03-14 12:02  9ff8b0e  (+592/-24)  FIX: Fixing the blog title page
+141. 2024-03-14 11:28  2c0769d  (+20/-591)  FIX: Fixing the blog title page
+142. 2024-03-13 17:28  1595373  (+4/-5)  FIX: Fixing the url
+143. 2024-03-09 02:38  85f126f  (+2/-2)  DEV: FIXING THE URL
+144. 2024-03-08 14:23  b079e58  (+2/-0)  DEV: Adding netlify deployemnt status badge
+145. 2024-03-08 14:15  1a9379d  (+605/-6)  DEV: Adding google analytics
+146. 2024-03-05 18:02  0afcdcc  (+0/-0)  Adding card
+147. 2024-03-05 17:47  e162180  (+53/-2)  DEV: Added the default dark mode
+148. 2024-03-05 17:42  da1a3ec  (+17/-46)  ADING -111
+149. 2024-03-05 17:36  ce2ee63  (+14/-2250)  ADING -111
+150. 2024-03-05 17:25  31b61be  (+8/-19)  ADING -111
+151. 2024-03-05 17:02  26682bd  (+2259/-10)  ======
+152. 2024-03-05 16:33  7c8b433  (+12/-12)  DEV: Adding force dark mode --1
+153. 2024-03-04 17:37  f0b4c01  (+1/-1)  FIX: Fixing the dark mode
+154. 2024-03-04 17:35  a14ea85  (+1/-1)  FIX: Fixing the dark mode
+155. 2024-03-04 17:07  9dec976  (+1/-586)  FIX: Fizinf the default light mode
+156. 2024-03-03 18:23  17762d7  (+2/-1655)  Adding new domain hope it works
+157. 2024-03-03 17:34  2f0e5cb  (+1/-1)  Adding last domain
+158. 2024-03-03 17:17  440bb3e  (+1/-1)  DEV: Adding new domain
+159. 2024-03-03 16:40  8eacf94  (+179/-176)  DEV: Adding new domain
+160. 2024-03-03 16:20  2e94ebd  (+1/-1)  DEV: Adding new domain
+161. 2024-03-03 16:13  cc5b490  (+1/-1)  DEV: Adding new domain
+162. 2024-03-01 17:44  a5df935  (+3/-0)  Adding the desing in logo
+163. 2024-02-29 05:26  ad488b8  (+9/-11)  Adding the linting
+164. 2024-02-29 05:23  5fa9c74  (+2/-2)  Adding the email in not crawalend foam
+165. 2024-02-25 18:12  c32303e  (+0/-1)  FIX: Har man giya ki nahi kr paunga
+166. 2024-02-25 18:02  8a68414  (+1/-1)  FIX: Fixing the default dark mode
+167. 2024-02-25 17:59  5824ecb  (+1/-10)  FIX: Fixing the default dark mode
+168. 2024-02-25 17:39  5bcc80d  (+15/-14)  DEV: Adding google analytics
+169. 2024-02-25 17:31  3e327ce  (+1665/-8)  DEV: Adding google analytics
+170. 2024-02-25 17:21  898c58d  (+2/-1)  DEV: Adding google analytices
+171. 2024-02-24 17:50  616b868  (+278/-31)  DEV:Adding style and formating
+172. 2024-02-19 07:00  4a9800d  (+1/-1)  FIX: Fixing
+173. 2024-02-19 06:58  68ad34a  (+1/-1)  TEST: Testing on live
+174. 2024-01-18 06:04  0427d29  (+2/-2)  Fixing typos
+175. 2024-01-07 15:01  cefd28a  (+0/-0)  Adding card for link preview
+176. 2024-01-07 14:58  bae46b8  (+6/-4)  Adding some minor chnges like tags and fixing links
+177. 2024-01-07 14:53  408e42e  (+601/-291)  Adding projects
+178. 2023-12-28 05:55  67e8247  (+281/-282)  Fixing things hope it works
+179. 2023-12-28 05:39  6751c32  (+279/-566)  Making dark mode to be default
+180. 2023-12-28 05:37  968e2fc  (+279/-566)  Making dark mode to be default
+181. 2023-12-28 05:07  2039fd5  (+3/-3)  Fixing linkedin links
+182. 2023-12-27 15:40  44d3449  (+4/-4)  Fixing google search preview
+183. 2023-12-26 16:30  bcb0be7  (+1/-1)  Adding more in discription for meta tags
+184. 2023-12-25 16:21  6f02fc1  (+1/-1)  Adding minor chnges
+185. 2023-12-24 18:31  79a15f7  (+12/-7)  Adding my readings section
+186. 2023-12-24 16:58  302f227  (+1/-1)  Adding some fine touch
+187. 2023-12-24 16:56  3128fc2  (+79/-40)  Adding Readme.md
+188. 2023-12-24 07:03  a00617e  (+579/-3)  All dark workssss
+189. 2023-12-24 06:57  a24571d  (+282/-282)  All dark works
+190. 2023-12-24 06:53  8f6d3bd  (+0/-1)  All dark works
+191. 2023-12-24 06:49  29f6fb8  (+1/-1)  Al darkkkkkk
+192. 2023-12-24 06:46  30bb96f  (+1/-1)  Al dark
+193. 2023-12-24 06:42  438b072  (+1/-1)  chnging theme to all dark
+194. 2023-12-24 06:38  1729817  (+281/-280)  chnging theme to all dark
+195. 2023-12-24 05:21  3c62513  (+2/-2)  Adding chnhes
+196. 2023-12-23 23:03  08a6c67  (+12/-1)  Adding searh feature(not working)
+197. 2023-12-23 22:38  59e9c67  (+1/-1)  Adding final touch
+198. 2023-12-23 22:29  79e5add  (+2/-291)  Changing colors
+199. 2023-12-23 22:27  fd5a241  (+15/-4)  Changing colors
+200. 2023-12-23 22:15  6642230  (+275/-304)  Blogs done
+201. 2023-12-23 22:06  3758af5  (+400/-132)  Migrating blogs
+202. 2023-12-23 21:30  97639b5  (+0/-0)  Adding icons
+203. 2023-12-23 21:24  dd7c601  (+4051/-5955)  Adding chnges
+204. 2023-10-19 05:59  6c2ece6  (+12/-5)  Chnging contact me section
+205. 2023-10-19 05:49  8e730f4  (+11/-66)  Fixng about me section
+206. 2023-10-16 18:16  958d93c  (+1/-1)  Fixing the production git submodule error
+207. 2023-10-16 18:14  03be797  (+1/-1)  Fixing the production git submodule error
+208. 2023-10-16 18:13  c1e1ecd  (+4/-4)  Fixing the production git submodule error
+209. 2023-10-16 18:10  b875cca  (+1/-1)  Fixing the production git submodule error
+210. 2023-10-16 18:08  3ce4b78  (+3/-3)  Fixing the production git submodule error
+211. 2023-10-16 18:06  7978f3a  (+4/-4)  Fixing the production git submodule error
+212. 2023-10-16 18:03  c4eade1  (+6/-0)  Adding chnges
+213. 2023-10-16 17:54  a7137ad  (+15/-15)  Building for production
+214. 2023-10-16 17:41  ce9de86  (+1/-1)  Adding changes in latest project
+215. 2023-10-16 17:32  1faf34e  (+6/-0)  Adding changes in about me
+216. 2023-10-16 17:30  a82318e  (+5/-3)  Adding changes in about me
+217. 2023-10-16 16:39  3e192a9  (+14/-15)  Adding changes in about me
+218. 2023-08-10 07:58  e223395  (+2/-2)  Changing contact me page
+219. 2023-08-09 09:41  d2bdeff  (+39/-0)  Adding readme for my site
+220. 2023-08-09 09:36  4d902a0  (+5/-5)  Adding comnts
+221. 2023-08-03 05:08  b6fb67a  (+15/-1)  Adding note
+222. 2023-08-01 12:19  92c9ae4  (+4/-0)  Adding github contributon graph
+223. 2023-08-01 06:23  3dd98d0  (+0/-14)  Fine tuning things
+224. 2023-07-25 12:04  39bc390  (+1/-1)  Adding pic
+225. 2023-07-25 12:02  ff30453  (+27/-12)  Adding chnges
+226. 2023-07-23 14:56  e5e1e4d  (+3/-3)  Changing linkedin personalized links
+227. 2023-07-21 11:05  85f08d2  (+2/-2)  Adding chnges
+228. 2023-07-19 04:55  eb984f5  (+1/-2)  Fine tuning things
+229. 2023-07-19 04:46  a99a3a2  (+12/-2)  Adding new project
+230. 2023-07-18 10:06  ce784cd  (+2/-0)  Fne tuning
+231. 2023-07-18 10:03  5804f0e  (+152/-1)  Adding projectets
+232. 2023-07-18 09:55  cd9e494  (+2/-2)  Adding job staus
+233. 2023-06-27 12:54  fb322da  (+2/-2)  Removing Note
+234. 2023-06-25 18:22  aae410f  (+2/-1)  JOB
+235. 2023-06-21 04:30  a4edf92  (+2/-2)  Removing contact number
+236. 2023-06-21 04:15  c733447  (+0/-1)  Removing contact number
+237. 2023-06-21 04:15  72c4183  (+1/-1)  Removing contact number
+238. 2023-06-07 11:40  4cdb97c  (+1/-1)  chnges
+239. 2023-06-07 11:34  65df587  (+2/-2)  Adding chnges
+240. 2023-06-06 16:13  2507ea6  (+1/-1)  Adding chnges
+241. 2023-06-04 10:07  090aa52  (+4/-4)  Making revent for google news
+242. 2023-06-02 19:22  dcd0e3f  (+4/-2)  Adding extra formation
+243. 2023-06-02 19:18  df0cd5c  (+24/-4)  More designing in md files
+244. 2023-06-02 09:01  266676b  (+1/-1)  Adding new post of rust to scale elixir
+245. 2023-06-02 08:29  6891782  (+66/-0)  Adding new post of rust to scale elixir
+246. 2023-05-30 09:08  7490ce4  (+1/-1)  Adding changes in about me section
+247. 2023-05-30 05:10  77dddce  (+1/-1)  Adding chnges in about me section
+248. 2023-05-26 11:57  69e5d72  (+1/-1)  Adding chnges in about me section
+249. 2023-05-25 19:29  842e68f  (+1/-1)  Adding coreect image
+250. 2023-05-21 15:46  3be2839  (+9/-1)  Adding twiter icon
+251. 2023-05-21 15:20  305d8ec  (+1/-1)  Adding meta discription
+252. 2023-05-21 13:42  afc5db2  (+2/-7)  Adding chnegs
+253. 2023-05-20 04:26  b35e7a1  (+1/-1)  Adding note in about me section
+254. 2023-05-19 04:31  304d9c9  (+4/-2)  Adding project
+255. 2023-05-19 04:28  d88079f  (+1/-1)  Adding things
+256. 2023-05-17 11:15  7694942  (+10/-0)  Adding Rss feed icon
+257. 2023-05-17 07:04  36e6ef3  (+0/-17)  Removing unnecessary sites
+258. 2023-05-17 04:21  8d3fa6e  (+19/-22)  Changes in about me section
+259. 2023-05-16 17:58  cea1a51  (+0/-24)  Adding chnges
+260. 2023-05-16 17:56  6452318  (+165/-2)  Adding chnges
+261. 2023-05-13 20:07  9dc0352  (+1/-3)  Adding chnes in about me section
+262. 2023-05-13 20:05  f14d994  (+3/-4)  About me chnges
+263. 2023-05-11 18:05  3767be6  (+14/-2)  Adding new Contact me
+264. 2023-05-11 17:56  192ae34  (+66/-0)  Adding new About me
+265. 2023-05-11 02:38  84b7b83  (+3/-1)  Adding changes to about me section
+266. 2023-05-10 07:40  68877c4  (+1/-1)  Adding style in discord podt
+267. 2023-05-10 07:33  6654267  (+2/-1)  Adding bit in about section
+268. 2023-04-30 07:16  906007f  (+1/-1)  Fixing production
+269. 2023-04-30 07:15  d0a17c3  (+2/-1)  Adding chnges
+270. 2023-04-21 09:05  e9129cd  (+1/-1)  Adding disqus
+271. 2023-04-21 08:56  4dacacc  (+864/-0)  adding chnges
+272. 2023-04-21 08:54  d5e7369  (+7/-5)  adding chnges
+273. 2023-04-18 09:59  4423f8c  (+1/-0)  Fixing bug on discord blog
+274. 2023-04-18 08:57  ce6a412  (+9/-8)  Adding projects
+275. 2023-04-18 05:38  19edce4  (+3/-3)  Adding title
+276. 2023-04-14 06:43  338d31c  (+0/-0)  Changin the logo
+277. 2023-04-14 05:32  135948f  (+1/-1)  Addinf good discription
+278. 2023-04-14 05:32  03ef5e8  (+2/-2)  Addinf good discription
+279. 2023-04-14 05:28  ef68f69  (+14/-10)  Addinf good discription
+280. 2023-04-13 13:13  1c7e692  (+2/-2)  Adding chnges
+281. 2023-04-13 13:06  8e76218  (+2/-2)  Adding title chnge
+282. 2023-04-13 11:59  0c9bed8  (+1/-1)  Changing the title
+283. 2023-04-13 11:58  0554721  (+5/-4)  Changing the title
+284. 2023-04-13 11:13  fe6e5e2  (+1/-1)  Adding logo
+285. 2023-04-13 11:11  baf85a5  (+0/-0)  Adding logo
+286. 2023-04-13 11:10  b0e258e  (+2/-2)  Adding logo
+287. 2023-04-13 11:06  3c1287d  (+2/-1)  Adding logo
+288. 2023-04-13 11:03  39124e3  (+1/-1)  Adding logo
+289. 2023-04-13 10:47  115da4a  (+17/-0)  Adding logo
+290. 2023-04-13 10:45  4a62520  (+1/-1)  Adding logo
+291. 2023-04-13 10:42  348c238  (+2/-2)  Adding logo
+292. 2023-04-13 10:40  043f020  (+1/-0)  Adding logo
+293. 2023-04-13 10:39  df316e6  (+1/-1)  Adding logo
+294. 2023-04-13 10:35  7c00511  (+0/-0)  Adding logo
+295. 2023-04-13 10:29  4795fee  (+1/-1)  Adding logo
+296. 2023-04-13 10:29  b0f5a61  (+1/-1)  Adding logo
+297. 2023-04-13 10:13  8725624  (+1/-1)  Adding good discritpion
+298. 2023-04-13 10:11  30bb55f  (+1/-2)  Adding logo
+299. 2023-04-13 09:19  9e2336c  (+0/-0)  Changing profile pic
+300. 2023-04-13 08:01  3835f21  (+9/-21)  Ading chengs
+301. 2023-04-10 11:33  70c1d7b  (+6/-6)  Some chenges
+302. 2023-04-10 06:10  5ccd275  (+0/-0)  Adding logo
+303. 2023-04-10 05:51  4bd6612  (+0/-1)  removing google auth
+304. 2023-04-10 05:03  be4c209  (+1/-1)  Adding goggle console auth
+305. 2023-04-10 04:56  f0382f2  (+1/-0)  Adding google auth
+306. 2023-04-04 15:17  c77f94e  (+6/-14)  chnging the discus module
+307. 2023-04-04 15:08  7f67f31  (+16/-0)  Adding giscus commnet in blog
+308. 2023-03-31 12:40  9679fe6  (+6/-3)  Addin series to posts
+309. 2023-03-31 11:59  898a46d  (+3/-5)  Adding inter linking in isolation post
+310. 2023-03-31 11:12  f18c953  (+1/-1)  Adding chnes
+311. 2023-03-31 10:44  dc389ec  (+1/-1)  Adding Isolation post
+312. 2023-03-31 10:44  00b78ba  (+189/-0)  Adding Isolation post
+313. 2023-03-24 15:50  936e01e  (+3/-0)  Adding Discord and linkedin in contact me page
+314. 2023-03-24 15:42  83f3917  (+82/-2)  Adding Acid proprty blog
+315. 2023-03-22 09:47  12da495  (+3972/-2)  adding logo
+316. 2023-03-22 09:04  8301efe  (+2/-3972)  removing like and dislike
+317. 2023-03-22 08:43  9376f5e  (+4/-0)  Removing like and dislike
+318. 2023-03-22 07:40  333f249  (+4/-1)  removing like
+319. 2023-03-22 07:37  029439a  (+4/-1)  add
+320. 2023-03-22 07:08  5413983  (+4/-3)  chnges
+321. 2023-03-22 05:07  d58fc4b  (+2/-2)  Changes in weight
+322. 2023-03-22 04:47  c72f93f  (+7/-2)  Adding new section categories
+323. 2023-03-21 11:35  e0779bb  (+2/-2)  Adding unsplash in about section
+324. 2023-03-21 11:23  43f466f  (+5/-6)  chnging the slug and url
+325. 2023-03-21 11:20  2d5835d  (+2/-0)  Addign googlle analytics
+326. 2023-03-20 19:27  54f7004  (+13/-3)  ading cls
+327. 2023-03-20 19:23  1ab3f23  (+1/-0)  changes
+328. 2023-03-20 19:21  da08974  (+3/-0)  Adding images to discord blog
+329. 2023-03-20 15:57  e595815  (+4/-1)  New commit with codre module tuned
+330. 2023-03-20 15:13  0b8f937  (+1/-1)  adding some final touch
+331. 2023-03-20 13:33  9127691  (+1/-1)  chnges
+332. 2023-03-20 12:52  465989c  (+37/-0)  netlify congig
+333. 2023-03-20 12:49  3247beb  (+4256/-0)  chnges
 
-===== Repository: cash_table =====
-Total Commits: 13
-Commits:
-1.  FIX: Fixing the cmake errors ::[2024-11-13 22:22:52]:: 72df60d
-2.  FIX: Fixing the build faild error of github actions ::[2024-11-03 00:18:49]:: 179cc3d
-3.  FIX: Fixing the build error ::[2024-11-03 00:13:52]:: f0518ac
-4.  BENCH: Benchmarking with perf ::[2024-11-03 00:11:27]:: cb5c8f5
-5.  BENCH: Benchmarking with perf ::[2024-11-03 00:09:51]:: a0ad2c1
-6.  DEV: Adding workflows ::[2024-11-02 23:12:40]:: 1e94a1d
-7.  DEV: Adding support for evry type of data ::[2024-11-02 22:59:33]:: f6eee97
-8.  DEV: Setting up test ::[2024-11-02 22:46:57]:: 2f99258
-9.  DEV: Restructiong th folder ::[2024-11-02 22:39:49]:: d54fca3
-10.  README: Adding readme ::[2024-11-02 17:36:46]:: fa819a7
-11.  DEV: Making shell more interactive ::[2024-11-02 17:34:56]:: d6e48cc
-12.  FIX: Fixing the errors ::[2024-11-01 10:51:51]:: 2f5635b
-13.  DEV: Setting up the basic project structure ::[2024-11-01 10:33:20]:: 9750e88
+----- 4.2 cash_table -----
+Commits: 13  |  +1741 / -512
+  1. 2024-11-13 16:52  72df60d  (+55/-23)  FIX: Fixing the cmake errors
+  2. 2024-11-02 18:48  179cc3d  (+170/-1)  FIX: Fixing the build faild error of github actions
+  3. 2024-11-02 18:43  f0518ac  (+0/-4)  FIX: Fixing the build error
+  4. 2024-11-02 18:41  cb5c8f5  (+0/-5)  BENCH: Benchmarking with perf
+  5. 2024-11-02 18:39  a0ad2c1  (+490/-0)  BENCH: Benchmarking with perf
+  6. 2024-11-02 17:42  1e94a1d  (+17/-9)  DEV: Adding workflows
+  7. 2024-11-02 17:29  f6eee97  (+174/-127)  DEV: Adding support for evry type of data
+  8. 2024-11-02 17:16  2f99258  (+210/-8)  DEV: Setting up test
+  9. 2024-11-02 17:09  d54fca3  (+248/-300)  DEV: Restructiong th folder
+ 10. 2024-11-02 12:06  fa819a7  (+3/-0)  README: Adding readme
+ 11. 2024-11-02 12:04  d6e48cc  (+48/-21)  DEV: Making shell more interactive
+ 12. 2024-11-01 05:21  2f5635b  (+71/-14)  FIX: Fixing the errors
+ 13. 2024-11-01 05:03  9750e88  (+255/-0)  DEV: Setting up the basic project structure
 
-===== Repository: java_lld =====
-Total Commits: 42
-Commits:
-1.  DEV: Adding i dont know what i did ::[2025-01-23 18:57:58]:: ca72913
-2.  DEV: Adding few changes ::[2025-01-23 18:21:07]:: 8256d6d
-3.  DEV: Adding code for FilebasedConfigurationManger ::[2025-01-23 16:29:36]:: 70a3663
-4.  DEV: Adding 3 questions to singleton folder ::[2025-01-23 15:13:27]:: 10ef112
-5.  DEV; Adding the database conector ::[2025-01-21 23:53:52]:: f8d0d7c
-6.  DEV: Removing the unused from pom  file ::[2025-01-21 17:35:26]:: 4ea2f5b
-7.  DEV: Adidng database connection code ::[2025-01-21 17:23:32]:: 0d4c2ad
-8.  DEV: ADDING THE BOOK DETAILS ] ::[2025-01-21 14:10:11]:: d8e59f6
-9.  DEV: ADDING THE BOOK DETAILS ] ::[2025-01-21 14:05:15]:: 0fe29d1
-10.  DEV: CHNGING THE ID ::[2025-01-21 13:56:33]:: 57d983a
-11.  DEV: Restructring the project ::[2025-01-21 13:46:44]:: c79ee0b
-12.  DEV: Adding diffrent appoch of singleton method ::[2025-01-15 14:43:51]:: 82206f6
-13.  DEV: Adding ther multi thjreaded imp of singlton ::[2025-01-15 14:11:39]:: e807b7c
-14.  DEV: Adding the singleton class code ::[2025-01-15 14:05:13]:: 8aec4f1
-15.  Minor changes ::[2025-01-03 12:25:09]:: 3166a97
-16.  DEV: Adding new chnages ::[2025-01-03 12:20:33]:: e6c0c50
-17.  DEV: Adding untract files of the platfoam ::[2024-12-11 06:21:55]:: 8185995
-18.  DEV: Adding the genearics example ::[2024-12-02 12:25:04]:: 3194a86
-19.  DEV: Adding the thread using callble and runable ::[2024-11-11 18:49:00]:: 540c5d6
-20.  DEV: Thread demonstration using runable interface ::[2024-11-11 01:14:47]:: 99049bd
-21.  DEV: Adding the all callable objects in main ::[2024-11-07 17:14:28]:: 15736c7
-22.  DEV: UPCASTING AND DOWNCASTING ::[2024-11-06 20:49:53]:: d42ff8f
-23.  DEV: Cleaning the main class in opps-1 for better readeablity ::[2024-11-02 16:51:28]:: e15fca7
-24.  DEV: Function overrriding ::[2024-11-01 10:04:06]:: bb39166
-25.  DEV: Adding the polymorphism ::[2024-11-01 09:16:04]:: 878c175
-26.  DEV:  A dding the polymorphism in the code ::[2024-11-01 09:09:32]:: c17a01a
-27.  DEV: Adding inheriance and super keyword ::[2024-10-31 22:00:01]:: f5ea65c
-28.  DEV: Adding comts ::[2024-10-31 20:05:16]:: e571dbb
-29.  DEV: Adding some cmnts in user and some more ::[2024-10-31 16:43:56]:: fda1212
-30.  DEV: Adding the iphone class for beeter understanding ::[2024-10-25 10:18:39]:: a2854f1
-31.  DEV: Adding deep copy and shallow copy ::[2024-10-23 12:42:12]:: 1981ca4
-32.  DEV: Exploring copy constructors ::[2024-10-21 10:23:18]:: d029e93
-33.  DEV: Accessing private members from public constructor ::[2024-10-20 23:02:56]:: f80efc3
-34.  DEV: Writing diffrent way of using class and it objec in main method ::[2024-10-20 19:51:41]:: 07bc5c2
-35.  FIX: Fixing the basic warnings ::[2024-10-20 19:12:46]:: 1d8c001
-36.  FIX: Fixing the basic warnings ::[2024-10-20 18:50:26]:: 036b0fb
-37.  STRUCT: Making better folder structure for making things easy acess ::[2024-10-20 18:44:01]:: df0f6c0
-38.  DEV: Adding md book ::[2024-10-20 18:40:30]:: c629fca
-39.  DEV: Learning basic access modifiers ::[2024-10-20 18:24:22]:: 66ba164
-40.  README: Adding readme ::[2024-10-20 15:35:07]:: 2ef210d
-41.  README: Adding readme ::[2024-10-20 15:09:41]:: 66e84b1
-42.  DEV: Setting up the java project in pakage foam ::[2024-10-20 15:08:10]:: 9bcf0c0
+----- 4.3 java_lld -----
+Commits: 2  |  +134 / -10
+  1. 2025-10-06 10:01  3e788af  (+54/-10)  DEV: Adding the new files from scrarch
+  2. 2025-08-16 15:40  b87ca7e  (+80/-0)  DEV: NEW PROJECT
 
-===== Repository: the_art_of_multithreading =====
-Total Commits: 9
-Commits:
-1.  DEPLOYMENT: Making ready for gihtuib pages ::[2024-10-14 00:53:00]:: af69d51
-2.  DEPLOYMENT: Making ready for gihtuib pages ::[2024-10-14 00:27:00]:: 55a2ca5
-3.  DEPLOYMENT: Making ready for gihtuib pages ::[2024-10-14 00:24:40]:: 38edc6a
-4.  vault backup: 2024-10-13 22:52:12 ::[2024-10-13 22:52:12]:: 0ac7eff
-5.  vault backup: 2024-10-13 22:51:28 ::[2024-10-13 22:51:28]:: 0c3fbbf
-6.  vault backup: 2024-10-13 22:48:27 ::[2024-10-13 22:48:27]:: 54aa15c
-7.  DEV: Adding the README.md for the project ::[2024-09-12 02:08:04]:: f3b9c59
-8.  DEV: Adding the fundamentals ::[2024-08-06 14:58:56]:: 974a2a8
-9.  SETUP: Setting up the project ::[2024-08-06 14:36:35]:: 2d47cc5
+----- 4.4 the_art_of_multithreading -----
+Commits: 9  |  +194 / -93
+  1. 2024-10-13 19:23  af69d51  (+1/-1)  DEPLOYMENT: Making ready for gihtuib pages
+  2. 2024-10-13 18:57  55a2ca5  (+0/-39)  DEPLOYMENT: Making ready for gihtuib pages
+  3. 2024-10-13 18:54  38edc6a  (+27/-48)  DEPLOYMENT: Making ready for gihtuib pages
+  4. 2024-10-13 17:22  0ac7eff  (+0/-2)  vault backup: 2024-10-13 22:52:12
+  5. 2024-10-13 17:21  0c3fbbf  (+2/-0)  vault backup: 2024-10-13 22:51:28
+  6. 2024-10-13 17:18  54aa15c  (+1/-1)  vault backup: 2024-10-13 22:48:27
+  7. 2024-09-11 20:38  f3b9c59  (+5/-0)  DEV: Adding the README.md for the project
+  8. 2024-08-06 09:28  974a2a8  (+147/-2)  DEV: Adding the fundamentals
+  9. 2024-08-06 09:06  2d47cc5  (+11/-0)  SETUP: Setting up the project
+
+----- 4.5 nvim -----
+Commits: 30  |  +2537 / -807
+  1. 2026-04-24 14:59  e4828a1  (+592/-213)  DEV: Adding the file seeter and sooth vs code like scroll and cursor placement with click
+  2. 2026-04-24 14:24  c2828c8  (+37/-37)  DEV: Saving th state of prject which is working am going to mess with it this night if it not works i can roll back a backup option as you were for her :)
+  3. 2026-01-31 21:38  d61b9e4  (+100/-28)  DEV: Adding the fix of warnings by metls plugin
+  4. 2025-12-12 19:53  1c2faba  (+47/-46)  DEV: Adding new chngews for the lazyloadin for the plugins
+  5. 2025-10-02 15:01  7f1033e  (+16/-17)  DEV: Fixing the popup error
+  6. 2025-09-26 22:54  492517d  (+47/-44)  DEV: CLEANING
+  7. 2025-08-20 02:23  cb3a0bc  (+47/-17)  DEV: Adding lock
+  8. 2025-07-30 17:37  c269906  (+141/-125)  README: Updating readme
+  9. 2025-07-30 17:28  744ac81  (+135/-22)  DEV: Adding new keymaps
+ 10. 2025-07-10 16:30  aca781b  (+10/-8)  DEV: Adding new keys for leetcode and reducing the popup transparency
+ 11. 2025-07-05 18:39  4534cd7  (+64/-27)  DEV: Adding leetcode in nvim
+ 12. 2025-06-04 07:05  f5fa789  (+1/-1)  DEV: Adding new img
+ 13. 2025-06-04 07:04  62869d4  (+1/-1)  DEV: Adding new img
+ 14. 2025-06-02 19:01  1054833  (+30/-30)  DEV: Adding new preview
+ 15. 2025-04-28 15:20  002a049  (+9/-0)  DEV: Adding new comnds for in files working
+ 16. 2025-04-28 07:47  9a98c62  (+73/-21)  DEV: Adding new comnds for in files working
+ 17. 2025-04-18 14:58  9f84155  (+7/-7)  DEV: Adding format in oresent text
+ 18. 2025-04-15 09:52  8bcdb13  (+60/-3)  DEV: Adding telescope
+ 19. 2025-04-14 14:32  87e81ad  (+5/-5)  FIX: Fixing the mason error failed to install gopls
+ 20. 2025-04-13 14:24  740b073  (+21/-9)  DEV: Adding diffrent tags in presence lua
+ 21. 2025-04-13 09:12  42de608  (+1/-1)  DEV: Force commit previous commit
+ 22. 2025-04-10 17:46  45fa240  (+50/-0)  aDEV: Making the cursorbit more highlight
+ 23. 2025-04-10 17:35  b7c8afa  (+184/-37)  DEV:making nvim bit transparent
+ 24. 2025-03-25 12:39  0ee99c1  (+22/-22)  DEV: Reducing the time for rpc for discprd presence
+ 25. 2025-03-15 06:37  9fdbb73  (+69/-38)  DEV: Adding discord presence
+ 26. 2025-02-04 11:13  7d9f7c6  (+4/-0)  DEV: Adding preview
+ 27. 2025-02-03 18:09  6875113  (+148/-44)  DEV: Fixed all errors
+ 28. 2025-02-03 16:15  f363641  (+9/-0)  DEV: Adding he java plugin
+ 29. 2025-02-03 16:04  40b2e67  (+65/-4)  DEV: Adding the java plugin
+ 30. 2025-02-03 15:40  499b080  (+542/-0)  SETUP: Project setup
+
+----- 4.6 clik -----
+Commits: 30  |  +5557 / -1596
+  1. 2026-04-08 21:50  0fa4323  (+28/-53)  DEV: Added the validon on long url
+  2. 2026-04-08 20:15  ff46ec3  (+57/-1)  DEV: Adding dedicated logs dir for logs
+  3. 2026-03-27 22:47  a8c17d5  (+0/-0)  DEV: Adding the new ui sc
+  4. 2026-03-27 22:43  ab2a101  (+1509/-624)  DEV: Refactoring and upting ui
+  5. 2025-12-17 16:57  54f3563  (+108/-29)  DEV: Adding the dta
+  6. 2025-10-29 08:11  f77205d  (+10/-8)  DEV: Adding getter and seeter
+  7. 2025-10-02 20:39  db487a5  (+3/-3)  DEV: Fixing the reroute error
+  8. 2025-09-30 07:26  c716140  (+85/-9)  DEV: Fine tuning some chnges
+  9. 2025-09-27 10:22  1e287d5  (+4/-24)  DEV: Adding few minor chnges
+ 10. 2025-08-31 00:22  d5c81b8  (+46/-24)  DEV: Adding user and anonymous link generation case
+ 11. 2025-06-22 11:14  1759678  (+10/-14)  MIGRATION: Migration spring version
+ 12. 2025-06-14 11:06  43737ef  (+110/-7)  README: Updating readme
+ 13. 2025-06-14 11:05  1ebe5f1  (+1/-1)  README: Fixing the readming img link
+ 14. 2025-06-14 11:04  fa36d51  (+12/-6)  DEV: Adding new chnges
+ 15. 2025-06-07 15:46  970eabd  (+256/-45)  DEV: Adding get all links and stats od an user
+ 16. 2025-05-29 19:07  dd76675  (+513/-278)  DEV: Coocking something crazy
+ 17. 2025-04-10 17:43  326f1a9  (+315/-304)  DEV: Adding bit chnges
+ 18. 2025-04-06 07:01  181f7df  (+470/-13)  DEV: Adding a inex page for the shortner
+ 19. 2025-03-01 11:10  4385226  (+57/-7)  DEV: Adding details in id_generator readme
+ 20. 2025-03-01 10:11  2e6f06a  (+265/-22)  Fixing the incriment counter for link preview
+ 21. 2025-03-01 08:59  58a287f  (+159/-2)  DEV: Adding readme
+ 22. 2025-02-28 11:08  88a1fcf  (+50/-29)  Fixing the redirect controller
+ 23. 2025-02-27 20:18  c92041e  (+565/-73)  DEV: Adding code for link generation
+ 24. 2025-02-27 17:42  d3e7964  (+120/-0)  DEV: Adding controllers
+ 25. 2025-02-25 17:53  af13e37  (+10/-3)  DEV: Adding hibernate core in dependency
+ 26. 2025-02-25 16:49  5d2afec  (+107/-1)  DEV: Adding the user model
+ 27. 2025-02-19 17:16  3dfa300  (+10/-5)  DEV: Adding the details in pom xml
+ 28. 2025-02-19 17:04  41e8ae7  (+11/-11)  DEV: Fixing the github cl error
+ 29. 2025-02-19 17:00  4297746  (+74/-0)  DEV: Adding resources and profiles
+ 30. 2025-02-19 16:32  e240046  (+592/-0)  DEV: Setting up the project
+
+----- 4.7 leetcode_scrapper -----
+Commits: 3  |  +8085 / -181
+  1. 2026-03-28 07:49  33df938  (+266/-138)  README: Updating readme
+  2. 2026-03-28 07:45  b614806  (+5470/-43)  DEV: Adding the leetcode 150
+  3. 2026-03-28 06:43  0565453  (+2349/-0)  feat: LeetCode scraper with Obsidian Markdown output and study plan support
