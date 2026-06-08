@@ -46,6 +46,14 @@ styles.add(ParagraphStyle(
 ))
 ```
 
+```curl
+python script.py \
+  --developer-name "Siddharth Sabron" \
+  --author "siddharth1729" \
+  --start-date 2022-01-01 \
+  --end-date 2026-06-08
+```
+
 ## 🚨 Troubleshooting
 
 1. **SSH Issues**
@@ -79,3 +87,4 @@ MIT License - feel free to use and modify!
 ---
 
 ⭐ Star this repo if you found it helpful! and suggest any new feature in issues if you like
+
